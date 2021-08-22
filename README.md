@@ -11,7 +11,7 @@
 
 2. Install the packages by executing the following commands in your terminal:
 
-3. Clone workspace
+3. Clone workspace 
 
 ```sh
 $ git clone https://github.com/ThiruLoki/Crover_navigation_challenge.git
@@ -25,23 +25,23 @@ $ sudo apt-get install ros-noetic-robot_localization.
 ```sh
 $ cd Crover_navigation_challenge/
 ```
-6. Remove both build and devel folders before $catkin_make to avoid make errors.
+6. Remove both build and devel folders before catkin_make to avoid make errors.
 ```sh
 $ sudo rm -r build/
 ```
 ```sh
 $ sudo rm -r devel/
 ```
+7. Build the code into the workspace
 ```sh
 $ catkin_make
 ```
-
-
-4. Install the required dependencies
-
+8. Install the required dependencies
+```sh
  $ rosdep install --from-paths src --ignore-src -y
+ ```
  
-5. Source the environment.
-
+9. Source the environment.
+```sh
  $ source devel/setup.bash
 ```
