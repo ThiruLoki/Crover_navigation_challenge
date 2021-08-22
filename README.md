@@ -9,7 +9,7 @@
  ROS Installation: Follow the link to install ROS in your Ubuntu system  $ http://wiki.ros.org/ROS/Installation
 
 
-##Install the packages by executing the following commands in your terminal:
+Install the packages by executing the following commands in your terminal:
 
 3. Clone workspace 
 
