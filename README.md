@@ -45,3 +45,5 @@ $ catkin_make
 ```sh
  $ source devel/setup.bash
 ```
+
+## Running the command
