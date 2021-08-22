@@ -19,7 +19,11 @@ $ git clone https://github.com/ThiruLoki/Crover_navigation_challenge.git
 
 4. Install robot_localization package.
 ```sh
-$ sudo apt-get install ros-noetic-robot_localization.
+$ sudo apt-get install ros-noetic-robot-localization 
+```
+or clone from github repo
+```sh
+$ https://github.com/ros-planning/navigation.git
 ```
 5. Navigate to the working directory
 ```sh
