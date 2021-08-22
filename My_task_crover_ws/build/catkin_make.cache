@@ -1,0 +1,2 @@
+extended_kalman_filter_pkg:robot_localization
+-DCATKIN_DEVEL_PREFIX=/home/bluemoon/My_task_crover_ws/devel -DCMAKE_INSTALL_PREFIX=/home/bluemoon/My_task_crover_ws/install -G Unix Makefiles

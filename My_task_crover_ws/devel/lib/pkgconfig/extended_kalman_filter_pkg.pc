@@ -1,0 +1,8 @@
+prefix=/home/bluemoon/My_task_crover_ws/devel
+
+Name: extended_kalman_filter_pkg
+Description: Description of extended_kalman_filter_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

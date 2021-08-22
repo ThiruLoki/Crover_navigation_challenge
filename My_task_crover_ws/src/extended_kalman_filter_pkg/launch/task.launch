@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="rosbag" type="play" name="rosbagplay" args="$(find extended_kalman_filter_pkg)/bag_files/data.bag --clock -d 5" required="true"/>
+  <node pkg="rosbag" type="record" name="rosbagrecord" args="-O $(find extended_kalman_filter_pkg)/bag_files/output.bag /odometry/filtered" required="true"/>
+  <node pkg="robot_localization" type="ekf_localization_node" name="ekf_node" clear_params="true">
+    <rosparam command="load" file="$(find extended_kalman_filter_pkg)/params/params_ekf.yaml" />
+  
+  </node>
+
+   <node pkg="rviz" type="rviz" name="rviz" args="-d $(find extended_kalman_filter_pkg)/rviz/rviz_config.rviz"/> 
+
+</launch>
