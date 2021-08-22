@@ -21,10 +21,11 @@ $ git clone https://github.com/ThiruLoki/Crover_navigation_challenge.git
 ```sh
 $ sudo apt-get install ros-noetic-robot_localization.
 ```
-
+5. Navigate to the working directory
 ```sh
 $ cd Crover_navigation_challenge/
 ```
+6. Remove both build and devel folders before $catkin_make to avoid make errors.
 ```sh
 $ sudo rm -r build/
 ```
