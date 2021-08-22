@@ -13,7 +13,9 @@
 
 3. Clone workspace
 
+```sh
 $ git clone https://github.com/ThiruLoki/Crover_navigation_challenge.git
+```
 
 4. Install robot_localization package.
 
