@@ -5,10 +5,10 @@
  This package was developed for ROS-Neotic. But should be compatible for other versions of ROS1.
  
 ## Installation:
+
+1. Install ROS: Follow the link to install ROS in your Ubuntu system ```sh $ http://wiki.ros.org/ROS/Installation ```
+
 ```sh
-1. Install ROS: Follow the link to install ROS in your Ubuntu system $ http://wiki.ros.org/ROS/Installation
-
-
 2. Install the packages by executing the following commands in your terminal:
 
 3. Clone workspace
