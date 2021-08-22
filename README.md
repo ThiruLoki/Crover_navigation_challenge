@@ -18,18 +18,22 @@ $ git clone https://github.com/ThiruLoki/Crover_navigation_challenge.git
 ```
 
 4. Install robot_localization package.
-
+```sh
 $ sudo apt-get install ros-noetic-robot_localization.
+```
 
-
-
+```sh
 $ cd Crover_navigation_challenge/
-
+```
+```sh
 $ sudo rm -r build/
+```
+```sh
 $ sudo rm -r devel/
-
+```
+```sh
 $ catkin_make
-
+```
 
 
 4. Install the required dependencies
