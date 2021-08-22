@@ -49,9 +49,8 @@ $ catkin_make
 ```sh
  $ source devel/setup.bash
 ```
-## Install Ros navigation stack
-```sh
-$ https://github.com/ros-planning/navigation.git
-```
+
 
 ## Running the command
+
+
