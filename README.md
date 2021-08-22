@@ -6,7 +6,7 @@
  
 ## Installation:
 
-1. Install ROS: Follow the link to install ROS in your Ubuntu system  $ http://wiki.ros.org/ROS/Installation ```
+1. Install ROS: Follow the link to install ROS in your Ubuntu system  $ http://wiki.ros.org/ROS/Installation
 
 ```sh
 2. Install the packages by executing the following commands in your terminal:
